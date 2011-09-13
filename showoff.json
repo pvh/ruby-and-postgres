@@ -1,5 +1,6 @@
 { "name": "Heroku Postgres: PostgreSQL-as-a-Service",
   "sections": [ 
     {"section":"intro"},
+    {"section":"postgres_is_awesome"},
     {"section":"features"}
 ]}
