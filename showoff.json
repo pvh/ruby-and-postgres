@@ -1,8 +1,5 @@
-{ "name": "Postgres in the Cloud", 
-
+{ "name": "Heroku Postgres: PostgreSQL-as-a-Service",
   "sections": [ 
     {"section":"intro"},
-    {"section":"jargon"},
-    {"section":"platform"},
-    {"section":"ec2"}
+    {"section":"features"}
 ]}

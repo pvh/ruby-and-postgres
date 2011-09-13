@@ -1,26 +1,25 @@
 !SLIDE 
-# PostgreSQL-in-the-Cloud #
-## How to Run 97,283(ish) Ruby Apps At Once ##
+# Heroku Postgres
+## PostgreSQL-as-a-Service ##
+## How to Run 175,000(ish) Databases At Once ##
 
 !SLIDE
 ## Peter van Hardenberg ##
-### pvh@pvh.ca ###
-### Tech Lead, Department of Data ###
+### pvh@heroku.com ###
+### Team Lead, Heroku Postgres ###
 ## Heroku ##
 
 !SLIDE bullets incremental
 # Heroku #
 
-* Ruby host
+* "Platform"-as-a-service
+* Ruby, Node.JS, Clojure, Python
 * PostgreSQL since day one
-* Local to SF
-* PaaS
 
 !SLIDE bullets incremental
-# PostgreSQL-in-the-Cloud #
+# Heroku Postgres #
 
-* The Dejargonizer
-* Cloud Service Architecture 101
-* Running PostgreSQL on EC2
-* Problems Outstanding
+* Production database service
+* Most PostgreSQL databases in the world
+
 
