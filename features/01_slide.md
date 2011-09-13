@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE subsection
 
 # Heroku Postgres
 # A Quick Features Run-Down

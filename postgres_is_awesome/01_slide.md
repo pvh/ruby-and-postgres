@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE subsection
 
 # Postgres is Awesome #
 
