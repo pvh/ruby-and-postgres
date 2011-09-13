@@ -1,7 +1,7 @@
 !SLIDE
 
 # Heroku Postgres
-# What we do
+# A Quick Features Run-Down
 
 !SLIDE
 
