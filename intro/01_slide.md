@@ -1,13 +1,18 @@
 !SLIDE title
 # Heroku Postgres #
 ## PostgreSQL-as-a-Service ##
-## How to Run 175,000(ish) Databases At Once ##
 
 !SLIDE
 ## Peter van Hardenberg ##
 ### pvh@heroku.com ###
 ### Team Lead ###
 ### Heroku Postgres ###
+
+!SLIDE bullets incremental
+# 20m. GO. #
+* What's a Heroku?
+* Postgres Service?
+* What's it do?
 
 !SLIDE bullets incremental
 # What's a Heroku? #
@@ -17,6 +22,10 @@
 * Powerful stateless runtime
 * Simple deployment mechanism
 * Ruby, Node.JS, Clojure, Python
+
+!SLIDE bullets incremental
+
+* Deployment
 
 !SLIDE bullets incremental
 # Heroku Postgres #
@@ -30,7 +39,6 @@
 
 # Why? #
 
-* Web developers fear databases
-* Databases are hard
-* We want to fix that
-
+* Postgres is awesome
+* Our users needed a database
+* 
