@@ -26,3 +26,11 @@
 * Recently opened to all users...
 * already 4 years in production.
 
+!SLIDE bullets
+
+# Why? #
+
+* Web developers fear databases
+* Databases are hard
+* We want to fix that
+

@@ -16,11 +16,11 @@ fork & follow
 * can count the failures on one hand
 * worry-free administration
 
-!SLIDE bullets
+!SLIDE bullets incremental
 
 # Stop Being A SysAdmin
-* you can build your app
-* we'll take care of your data'
+* you build the app
+* we take care of your data
 
 !SLIDE bullets incremental
 
