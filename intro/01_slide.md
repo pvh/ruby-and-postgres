@@ -21,11 +21,52 @@
 * An alternative to running servers
 * Powerful stateless runtime
 * Simple deployment mechanism
-* Ruby, Node.JS, Clojure, Python
 
 !SLIDE bullets incremental
+# Official Languages
+* Ruby
+* Node.js
+* Clojure
+* Java
+* Python (newly ϐ)
 
-* Deployment
+!SLIDE
+
+# We'll do it live!
+# [Heroku](http://heroku.com)
+
+!SLIDE
+
+# [How it works](http://heroku.com/how)
+
+!SLIDE bullets
+
+# I totally like it
+* We run software on Heroku
+* ~1000 deploys per year
+
+!SLIDE
+
+# Wait.
+
+!SLIDE
+
+# Stateless?
+
+!SLIDE center
+
+## Where's the [data], Lebowski?
+![Treehorn Thug](where.jpg)
+
+!SLIDE center
+
+## It's, uh, down there somewhere.
+## Let me take another look.
+![Wet Lebowski](down.jpg)
+
+!SLIDE
+
+# Enter...
 
 !SLIDE bullets incremental
 # Heroku Postgres #
@@ -40,5 +81,5 @@
 # Why? #
 
 * Postgres is awesome
-* Our users needed a database
-* 
+* We needed to store data
+* Nothing beats Postgres

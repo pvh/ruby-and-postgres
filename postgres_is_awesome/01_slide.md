@@ -9,10 +9,13 @@
 * Incredibly stable
 * Best OSS SQL database there is
 * NoSQL solutions specialized and immature
-* No corporate owner
-* Conclusion: Awesome
+* Strong, diverse community
 
-!SLIDE
+!SLIDE bullets
+
+# Conclusion: Awesome
+
+!SLIDE bullets
 
 # Durability & Replication
 
@@ -22,38 +25,26 @@
 
 !SLIDE bullets
 
-# Write-Ahead Logs
+# Data Types
 
-* journalled heap
-* writes first to one disk
-* consolidated to heap
-
-!SLIDE bullets
-
-# Write-Ahead Logs
-
-* WAL contains all changes to disk
-* used for disaster recovery
-* why not use it every day?
+* temporal
+* hstore
+* postgis
 
 !SLIDE bullets
 
-# Write-Ahead Logs
+# New Hotness
 
-* ship logs to highly durable data store
-* consolidate daily via new base backups
-* create new databases by cloning that
+* SQL/MED
+* extensions
+* PL
 
-!SLIDE bullets incremental
+!SLIDE bullets
 
-# Streaming Replication
+# Brief aside
 
-* guaranteed accurate replication?
-* follow, then fork
-* minimum down-time migrations
+* [PLV8](http://code.google.com/p/plv8js/)
+* NTT shoutout
+* Trusted = safe
+* JIT = fast
 
-# Fork? Follow?
-
-* if provisioning is fast and easy
-* and databases come in many sizes
-* why not create a massive server for an hour?
