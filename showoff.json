@@ -2,5 +2,6 @@
   "sections": [ 
     {"section":"intro"},
     {"section":"postgres_is_awesome"},
-    {"section":"features"}
+    {"section":"features"},
+    {"section":"fin"}
 ]}

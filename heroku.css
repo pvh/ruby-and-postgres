@@ -34,13 +34,13 @@ body {
 .slide {
   background-color: #07121c;
   color: #bbdaf9;
-  font-family: helvetica, arial;
+  font-family: "Corbel", sans-serif !important;
 }
 
 h1, h2 {
-        color: rgb(79, 180, 226);
-          font-family: "Corbel", sans-serif !important;
-        }
+  color: rgb(79, 180, 226);
+  font-family: "Corbel", sans-serif !important;
+}
 
 .content::after {
   position: absolute;

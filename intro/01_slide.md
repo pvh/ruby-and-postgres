@@ -44,6 +44,7 @@
 # I totally like it
 * We run software on Heroku
 * ~1000 deploys per year
+* scale effortlessly
 
 !SLIDE
 
