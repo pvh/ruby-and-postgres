@@ -5,9 +5,33 @@
 
 !SLIDE bullets
 
-# Our Basic Plan
+# The Idea
 * You write the app...
 * ... we take care of the rest.
+
+!SLIDE bullets incremental
+
+# Who's it for?
+
+* Developers
+* OLTP loads less than 1TB
+* In or near AWS
+* Prefer not to manage
+
+!SLIDE bullets incremental
+
+# Customer: [GroupMe](http://groupme.com)
+
+* ad-hoc communication groups
+* SMS or Phone app
+* ski-trip messaging
+
+!SLIDE bullets incremental
+
+# Customer: [Rapportive](http://rapportive.com)
+
+* terminator vision for your inbox
+* aggregates information
 
 !SLIDE bullets incremental
 
@@ -64,6 +88,14 @@
 * performance testing
 * migration tests
 * staging servers
+
+!SLIDE bullets
+
+# WAL-E
+
+* the secret sauce
+* open sourced
+* go to Dan's talk
 
 !SLIDE bullets incremental
 
