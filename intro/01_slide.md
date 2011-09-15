@@ -80,6 +80,6 @@
 
 # Why? #
 
-* Postgres is awesome
 * We needed to store data
+* Not happy with options
 * Nothing beats Postgres
