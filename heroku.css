@@ -1,0 +1,50 @@
+
+@font-face {
+  font-family: "Corbel";
+  src: url(Corbel.eot);
+  src: local("☺"), url(Corbel.eot?iefix) format("eot"), url(Corbel.woff) format("woff"), url(Corbel.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Corbel";
+  src: url(CorbelBold.eot);
+  src: local("☺"), url(CorbelBold.eot?iefix) format("eot"), url(CorbelBold.woff) format("woff"), url(CorbelBold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Corbel";
+  src: url(CorbelItalic.eot);
+  src: local("☺"), url(CorbelItalic.eot?iefix) format("eot"), url(CorbelItalic.woff) format("woff"), url(CorbelItalic.ttf) format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  background-color: #10253c;
+  background-repeat: repeat-x;
+  background-image: url(bg.png);
+  color: #bbdaf9;
+  height: 100%;
+}
+
+.slide {
+  background-color: #07121c;
+  color: #bbdaf9;
+  font-family: helvetica, arial;
+}
+
+h1, h2 {
+        color: rgb(79, 180, 226);
+          font-family: "Corbel", sans-serif !important;
+        }
+
+.content::after {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  content: url(logo.png);
+}
