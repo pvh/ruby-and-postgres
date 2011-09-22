@@ -42,6 +42,18 @@ h1, h2 {
   font-family: "Corbel", sans-serif !important;
 }
 
+a:link,
+a:visited {
+  border-bottom: 2px solid #d4f1ff;
+  color: #d4f1ff;
+  text-decoration: none;
+}
+
+.subsection {
+  background: #122637;
+  padding: 1em 0;
+}
+
 .content::after {
   position: absolute;
   right: 10px;
