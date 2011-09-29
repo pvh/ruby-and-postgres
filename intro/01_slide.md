@@ -1,7 +1,3 @@
-!SLIDE title
-# Heroku Postgres #
-## PostgreSQL-as-a-Service ##
-
 !SLIDE
 ## Peter van Hardenberg ##
 ### pvh@heroku.com ###
@@ -9,35 +5,31 @@
 ### Heroku Postgres ###
 
 !SLIDE bullets incremental
-# 20m. GO. #
+# Quick Heroku Overview
 * What's a Heroku?
 * Postgres Service?
-* What's it do?
 
 !SLIDE bullets incremental
 # What's a Heroku? #
 
 * "Platform"-as-a-service
+* Focus: Developer Productivity
 * An alternative to running servers
-* Powerful stateless runtime
-* Simple deployment mechanism
+* Stateless runtime
+* Simple deployment
 
 !SLIDE bullets incremental
-# Official Languages
+# Supported Languages
 * Ruby
 * Node.js
-* Clojure
-* Java
-* Python (newly ϐ)
+* Java / Clojure / Scala
+* Python (just released)
+* [Logo](http://cranes.heroku.com/)
 
 !SLIDE
 
-# We'll do it live!
+# Instademo
 # [Heroku](http://heroku.com)
-
-!SLIDE
-
-# [How it works](http://heroku.com/how)
 
 !SLIDE bullets
 
@@ -70,17 +62,11 @@
 # Enter...
 
 !SLIDE bullets incremental
-# Heroku Postgres #
+# [Heroku Postgres](http://postgres.heroku.com) #
 
 * Production database service
 * Most PostgreSQL databases in the world
-* Recently opened to all users...
-* already 4 years in production.
+* Recently opened to all comers,
+* already 4 years of production operation.
 
-!SLIDE bullets
 
-# Why? #
-
-* We needed to store data
-* Not happy with options
-* Nothing beats Postgres
