@@ -1,6 +1,6 @@
 !SLIDE subsection
 
-# The Landscape Today
+# The Ruby Landscape
 
 !SLIDE
 #Ruby ♥

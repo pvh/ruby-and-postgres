@@ -15,11 +15,6 @@
 
 !SLIDE
 
-# Jeremy Evans maintaining
-## (Hi Jeremy)
-
-!SLIDE
-
 # Abstract as little as you like
 
 !SLIDE
@@ -38,6 +33,10 @@
 
 !SLIDE
 
+## or as much!
+
+!SLIDE
+
     @@@ ruby
     class Albums < Sequel::Model; end
 
@@ -47,7 +46,7 @@
 
 !SLIDE
 
-# Datasets
+# Sequel Datasets
 ## Queries you can modify programmatically
 
 !SLIDE
@@ -93,21 +92,78 @@
 
 # 3.0: Less terrifying
 
-!SLIDE
+!SLIDE subsection
 
-# A detour
+A detour: Arel
 
-!SLIDE
+!SLIDE subsection
 
-# ARel
-# The relational algebra library
-
-!SLIDE
+# Arel
+## The relational algebra library
 
 !SLIDE
 
-# Enter: ActiveRecord 3.0
+Kind of like Sequel,
 
 !SLIDE
 
+but more verbose
+
+!SLIDE
+
+and with a relational algebra syntax.
+
+!SLIDE
+
+# Example
+    @@@ ruby
+    users = Arel::Table.new(:users)
+    query = users.project(Arel.sql('*'))
+    query.to_sql
+
+!SLIDE
+
+Pretty okay!
+
+!SLIDE
+
+## back to ActiveRecord
+
+!SLIDE
+
+ActiveRecord 3.0 is built on Arel
+
+!SLIDE
+
+When you lift the hood, Arel is there
+
+!SLIDE
+    @@@ ruby
+    class Posts < ActiveRecord
+      def for_topics(topics)
+        where(
+          self.arel_table[:topic].in(topics)
+        )
+      end
+    end
+
+!SLIDE
+
+ActiveRecord classes are made of ARel objects
+
+!SLIDE
+
+ActiveRecord 3.1 uses prepared statements
+
+!SLIDE
+
+I still prefer Sequel
+
+!SLIDE
+
+but ActiveRecord is getting serious.
+
+!SLIDE
+
+(Okay, feel free to throw tomatos for the rest.)
 

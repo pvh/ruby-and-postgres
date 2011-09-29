@@ -60,3 +60,9 @@ a:visited {
   bottom: 15px;
   content: url(logo.png);
 }
+
+.code {
+  background: #FFF;
+  color: black;
+  padding-bottom: 1em;
+}
