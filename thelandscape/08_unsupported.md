@@ -30,11 +30,6 @@ Not so bad for strings, but what about complex types?
 
 # Record Types
 
-!SLIDE
-
-    @@@ sql
-    select (user) from users;
-
 !SLIDE code
 
     pvh=# select (users) from users;
@@ -45,3 +40,10 @@ Not so bad for strings, but what about complex types?
      (2,Will,will@heroku.com)
     (3 rows)
 
+!SLIDE 
+
+How do we parse THAT generically?
+
+!SLIDE
+
+# Others?
